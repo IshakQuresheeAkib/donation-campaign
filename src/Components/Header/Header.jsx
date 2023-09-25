@@ -3,7 +3,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <nav className="flex items-center justify-between px-36 py-6">
+        <nav className="flex md:flex-row flex-col gap-5 items-center justify-between lg:px-36 md:px-4 py-6">
             <div className="h-14">
                 <img src="/Logo.png" alt="" className="h-full"/>
             </div>

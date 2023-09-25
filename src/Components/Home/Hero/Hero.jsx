@@ -6,10 +6,10 @@ const Hero = () => {
         <div>
             <div className="h-screen">
             <div
-                className="w-full h-screen bg-[url('./background.jpg')] bg-cover bg-center">
-                <div className="w-full h-full bg-[#FFFFFFDB] backdrop-blur-sm backdrop-brightness-150">
+                className="w-full h-screen bg-[url('https://i.ibb.co/VmcJZgZ/background.jpg')] bg-cover bg-center">
+                <div className="w-full h-full bg-[#FFFFFFDB] backdrop-blur-sm backdrop-brightness-125">
                         <Header></Header>
-                        <div className="flex flex-col items-center justify-end h-96 text-[#0B0B0B]">
+                        <div className="flex flex-col items-center justify-end h-96 text-[#0B0B0B] text-center">
                             <h1 className="text-5xl font-bold pb-10">I Grow By Helping People In Need</h1>
                             <div className="join">
                             <input type="text" className="input input-bordered join-item md:w-80 focus:outline-none focus:border focus:border-error" placeholder="Search here...."/>
