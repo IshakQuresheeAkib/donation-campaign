@@ -103,9 +103,9 @@
       "title": "Rescue and Care for Animals",
       "categoryName": "Animal Welfare",
       "categoryImage": "../little-girl-holds-puppy-her-arms.jpg",
-      "categoryNameBackgroundColor": "#FF9D9D",
+      "categoryNameBackgroundColor": "#FF444A26",
       "cardBackgroundColor": "#FFF5EE",
-      "titleTextColor": "#D11919",
+      "titleTextColor": "#FF444A",
       "description": "Make a difference in the lives of stray and abandoned animals by supporting rescue and care programs. Your contribution provides shelter, medical care, and love to animals in need.",
       "donationAmount": "$45"
     },
@@ -114,9 +114,9 @@
       "title": "Wildlife Conservation",
       "categoryName": "Animal Welfare",
       "categoryImage": "../3prl_pi7s_221003.jpg",
-      "categoryNameBackgroundColor": "#FF9D9D",
+      "categoryNameBackgroundColor": "#FF444A26",
       "cardBackgroundColor": "#FFF5EE",
-      "titleTextColor": "#D11919",
+      "titleTextColor": "#FF444A",
       "description": "Join the effort to protect endangered species and their habitats through wildlife conservation initiatives. Your donation contributes to the preservation of our planet's diverse and unique wildlife.",
       "donationAmount": "$55"
     },
@@ -125,9 +125,9 @@
       "title": "Animal Adoption Programs",
       "categoryName": "Animal Welfare",
       "categoryImage": "../close-up-hand-petting-smiley-dog.jpg",
-      "categoryNameBackgroundColor": "#FF9D9D",
+      "categoryNameBackgroundColor": "#FF444A26",
       "cardBackgroundColor": "#FFF5EE",
-      "titleTextColor": "#D11919",
+      "titleTextColor": "#FF444A",
       "description": "Give a loving home to a furry friend in need by supporting animal adoption programs. Your donation helps cover the costs of care and adoption, bringing joy to both animals and families.",
       "donationAmount": "$65"
     }
