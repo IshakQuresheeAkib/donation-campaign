@@ -1,0 +1,135 @@
+[
+    {
+      "id":1,
+      "title": "Support Medical Workers",
+      "categoryName": "Healthcare",
+      "categoryImage": "healthcare.jpg",
+      "categoryNameBackgroundColor": "#FFD700",
+      "cardBackgroundColor": "#FFF4E1",
+      "titleTextColor": "#FF8C00",
+      "description": "Show your support for the brave medical workers on the frontlines of the COVID-19 pandemic. Your donation will help provide essential medical supplies to hospitals treating patients in need. By contributing, you play a crucial role in ensuring that healthcare professionals have the resources they need to save lives. Join us in this important mission today.",
+      "donationAmount": "$50"
+    },
+    {
+      "id":2,
+      "title": "Medical Research Funding",
+      "categoryName": "Healthcare",
+      "categoryImage": "healthcare.jpg",
+      "categoryNameBackgroundColor": "#FFD700",
+      "cardBackgroundColor": "#FFF4E1",
+      "titleTextColor": "#FF8C00",
+      "description": "Support groundbreaking medical research that leads to new treatments and cures. Your generous donation goes towards funding innovative research projects that have the potential to make a significant impact on healthcare. By contributing to medical research, you become a part of the quest for better health and a brighter future.",
+      "donationAmount": "$75"
+    },
+    {
+      "id": 3,
+      "title": "Support Healthcare Workers",
+      "categoryName": "Healthcare",
+      "categoryImage": "healthcare.jpg",
+      "categoryNameBackgroundColor": "#FFD700",
+      "cardBackgroundColor": "#FFF4E1",
+      "titleTextColor": "#FF8C00",
+      "description": "Join us in showing appreciation and support for healthcare workers who tirelessly serve their communities. Your donation helps provide resources and assistance to healthcare professionals during the pandemic. By standing together, we can make a positive impact on the lives of those who dedicate themselves to caring for others.",
+      "donationAmount": "$60"
+    },
+    {
+      "id": 4, 
+      "title": "Scholarships for Students",
+      "categoryName": "Education",
+      "categoryImage": "education.jpg",
+      "categoryNameBackgroundColor": "#87CEEB",
+      "cardBackgroundColor": "#F0F8FF",
+      "titleTextColor": "#4169E1",
+      "description": "Empower the next generation by supporting scholarships for deserving students. Your contribution enables underprivileged students to access quality education and pursue their dreams. By investing in education, you help create a brighter future for young minds.",
+      "donationAmount": "$40"
+    },
+    {
+      "id":5,  
+      "title": "Remote Learning Resources",
+      "categoryName": "Education",
+      "categoryImage": "education.jpg",
+      "categoryNameBackgroundColor": "#87CEEB",
+      "cardBackgroundColor": "#F0F8FF",
+      "titleTextColor": "#4169E1",
+      "description": "Provide essential resources for remote learning, ensuring that students have access to education even in challenging times. Your donation supports the development of online learning materials and tools that bridge the gap for learners everywhere.",
+      "donationAmount": "$30"
+    },
+    {
+      "id":6,  
+      "title": "Support Teachers",
+      "categoryName": "Education",
+      "categoryImage": "education.jpg",
+      "categoryNameBackgroundColor": "#87CEEB",
+      "cardBackgroundColor": "#F0F8FF",
+      "titleTextColor": "#4169E1",
+      "description": "Acknowledge the dedication and hard work of teachers by supporting their professional development. Your contribution helps educators access training and resources, ensuring that they can provide the best education for their students.",
+      "donationAmount": "$50"
+    },
+    {
+      "id":7,  
+      "title": "Reforestation Projects",
+      "categoryName": "Environment",
+      "categoryImage": "environment.jpg",
+      "categoryNameBackgroundColor": "#98FB98",
+      "cardBackgroundColor": "#F5FFFA",
+      "titleTextColor": "#2E8B57",
+      "description": "Contribute to reforestation efforts that combat climate change and protect our planet's ecosystems. Your donation goes towards planting trees and preserving vital natural habitats. By joining the cause, you become a guardian of our environment.",
+      "donationAmount": "$60"
+    },
+    {
+      "id":8,  
+      "title": "Clean Water Initiatives",
+      "categoryName": "Environment",
+      "categoryImage": "environment.jpg",
+      "categoryNameBackgroundColor": "#98FB98",
+      "cardBackgroundColor": "#F5FFFA",
+      "titleTextColor": "#2E8B57",
+      "description": "Support projects that provide clean and safe drinking water to communities in need. Your contribution ensures that everyone has access to one of life's most essential resources. Join us in making a difference in the lives of many.",
+      "donationAmount": "$35"
+    },
+    {
+      "id":9,
+      "title": "Environmental Conservation",
+      "categoryName": "Environment",
+      "categoryImage": "environment.jpg",
+      "categoryNameBackgroundColor": "#98FB98",
+      "cardBackgroundColor": "#F5FFFA",
+      "titleTextColor": "#2E8B57",
+      "description": "Help protect natural habitats and endangered species through dedicated environmental conservation efforts. Your donation supports initiatives that safeguard biodiversity and preserve our planet's ecological balance.",
+      "donationAmount": "$70"
+    },
+    {
+      "id":10,  
+      "title": "Rescue and Care for Animals",
+      "categoryName": "Animal Welfare",
+      "categoryImage": "animal-welfare.jpg",
+      "categoryNameBackgroundColor": "#FFA07A",
+      "cardBackgroundColor": "#FFF5EE",
+      "titleTextColor": "#FF7F50",
+      "description": "Make a difference in the lives of stray and abandoned animals by supporting rescue and care programs. Your contribution provides shelter, medical care, and love to animals in need.",
+      "donationAmount": "$45"
+    },
+    {
+      "id":11,  
+      "title": "Wildlife Conservation",
+      "categoryName": "Animal Welfare",
+      "categoryImage": "animal-welfare.jpg",
+      "categoryNameBackgroundColor": "#FFA07A",
+      "cardBackgroundColor": "#FFF5EE",
+      "titleTextColor": "#FF7F50",
+      "description": "Join the effort to protect endangered species and their habitats through wildlife conservation initiatives. Your donation contributes to the preservation of our planet's diverse and unique wildlife.",
+      "donationAmount": "$55"
+    },
+    {
+      "id":12,  
+      "title": "Animal Adoption Programs",
+      "categoryName": "Animal Welfare",
+      "categoryImage": "animal-welfare.jpg",
+      "categoryNameBackgroundColor": "#FFA07A",
+      "cardBackgroundColor": "#FFF5EE",
+      "titleTextColor": "#FF7F50",
+      "description": "Give a loving home to a furry friend in need by supporting animal adoption programs. Your donation helps cover the costs of care and adoption, bringing joy to both animals and families.",
+      "donationAmount": "$65"
+    }
+  ]
+  

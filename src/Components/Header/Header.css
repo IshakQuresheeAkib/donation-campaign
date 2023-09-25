@@ -5,3 +5,8 @@
     text-underline-offset: 2px;
     font-weight: 700;
 }
+
+.nav a {
+    color:black;
+    font-size: 17px;
+}
