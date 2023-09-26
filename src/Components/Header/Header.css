@@ -10,3 +10,9 @@
     color:black;
     font-size: 17px;
 }
+
+.nav a:hover{
+    text-decoration: underline;
+    text-decoration-color: #FF444A;
+    text-underline-offset: 2px;
+}

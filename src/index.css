@@ -4,6 +4,22 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+
+body {
     font-family: 'Inter', sans-serif;
-}
+    overflow-y: scroll; /* Always show a vertical scrollbar */
+    scrollbar-width: thin; /* Width of the scrollbar */
+  }
+
+body::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Track color */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #888; /* Thumb color */
+    border-radius: 4px; /* Thumb border radius */
+  }
