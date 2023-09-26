@@ -34,8 +34,8 @@ const Home = () => {
                    { 
                    programs.map(program=>  
                    <div key={program.id} className="xl:w-[260px] place-self-center cursor-pointer active:scale-95 duration-500" onClick={()=>navigate(`/donationDetails/${program.id}`)}>
-                        <img src={program.categoryImage} alt="" className="h-40 w-full  rounded-t-lg"/>
-                        <div className="p-3 rounded-b-lg" style={{backgroundColor:program.categoryNameBackgroundColor}}>
+                        <img src={program.categoryImage} alt="" className="h-40 xl:w-[260px] w-[250px] rounded-t-lg"/>
+                        <div className="p-3 xl:w-[260px] w-[250px] rounded-b-lg" style={{backgroundColor:program.categoryNameBackgroundColor}}>
                             <h5 style={{color:program.titleTextColor,backgroundColor:program.cardBackgroundColor}} className="text-xs p-1 my-1 w-fit rounded">{program.categoryName}</h5>
                             <h3 style={{color:program.titleTextColor}} className="font-semibold">{program.title}</h3>
                         </div>
