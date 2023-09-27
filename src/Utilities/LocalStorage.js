@@ -9,9 +9,11 @@ const getStoredCard = () => {
 
 const addToLS = (id) => {
     const card = getStoredCard();
-    card.push(id)
-    const cardStiringify = JSON.stringify(card)
-    localStorage.setItem('card',cardStiringify)
+    if (!card.includes(id)) {
+        card.push(id)
+        const cardStiringify = JSON.stringify(card)
+        localStorage.setItem('card',cardStiringify) 
+    }
 }
 
 

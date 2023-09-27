@@ -1,6 +1,5 @@
 import { useLoaderData } from "react-router-dom";
 import Header from "../Header/Header";
-
 import { PieChart, Pie,  Cell } from 'recharts';
 import { useEffect, useState } from "react";
 import { getStoredCard } from "../../Utilities/LocalStorage";
@@ -18,7 +17,7 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
 
   return (
     <text x={x} y={y} fill="white" textAnchor={x > cx ? 'start' : 'end'} dominantBaseline="central">
-      {` ${(percent * 100).toFixed(0)}%`}
+      {` ${(percent * 100).toFixed(1)}%`}
     </text>
   );
 };
@@ -30,20 +29,20 @@ const Statistics = () => {
   const [data,setData] = useState([])
   const programmes = useLoaderData();
 
-  const totalAmount = programmes.length;
+  const totalCampaign = programmes.length;
 
   useEffect(()=>{
     const cards = getStoredCard();
     if (cards.length) {
       const donatedAmount = cards.length;
       setData([
-        {value:totalAmount},
+        {value:totalCampaign - donatedAmount},
         {value:donatedAmount}
       ])
       
     }
     
-  },[totalAmount])
+  },[totalCampaign])
   console.log(data);
 
 
@@ -55,7 +54,7 @@ const Statistics = () => {
             <div className="flex justify-center">
             <PieChart width={400} height={400}>
           <Pie
-            data={data.length ? data: [{value:totalAmount},{value:0}]}
+            data={data.length ? data: [{value:totalCampaign},{value:0}]}
             cx="50%"
             cy="50%"
             labelLine={false}

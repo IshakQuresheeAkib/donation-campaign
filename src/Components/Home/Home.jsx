@@ -12,7 +12,7 @@ const Home = () => {
     const navigate = useNavigate();
     const [searchValue,setSearchValue] = useState('')
 
-    console.log(searchValue ? 'true' : 'false');
+
     
     useEffect(()=>{
     

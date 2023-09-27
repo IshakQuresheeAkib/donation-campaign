@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import Header from "../Header/Header";
-import { addToLS } from "../../Utilities/LocalStorage";
+import { addToLS, getStoredCard } from "../../Utilities/LocalStorage";
 import Swal from 'sweetalert2/dist/sweetalert2.js'
 import 'sweetalert2/src/sweetalert2.scss'
 import ErrorPage from "../ErrorPage/ErrorPage";
@@ -21,14 +21,20 @@ const DonationDetails = () => {
     console.log(data);
     
     const handleDonate = (id) => {
-
-        addToLS(id);
-        Swal.fire(
+        const cards = getStoredCard();
+        if (!cards.includes(id)) {
+            addToLS(id);
+            return Swal.fire(
             '',
             'You Have Donated Successfully!',
             'success'
+            );
+        }
+        Swal.fire(
+            '',
+            'You have already donated!',
+            'error'
           )
-
     }
 
     return (
